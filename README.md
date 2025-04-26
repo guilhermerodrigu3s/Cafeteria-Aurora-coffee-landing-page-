@@ -12,7 +12,7 @@ Todas as imagens foram geradas e otimizadas para o projeto.
 ## 🖥️ Prévia do projeto
 
 ### 🎥 Navegação pela página
-![Demonstração da navegação](Cafeteriagif.mp4)
+![Demonstração da navegação](Cafeteriagif-ezgif.com-video-to-gif-converter.gif)
 
 ### 📸 Seções da página
 - **Hero Section**  
