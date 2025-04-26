@@ -1,0 +1,220 @@
+/* 
+
+---- 01 TYPOGRAPHY SISTEM
+  /*
+      
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+      Font Weights
+
+      -Default: 1
+
+      -Line heights
+      Default ;
+       1
+
+-- 02 COLORS
+
+--- Primay : Marrom café (#4B2E2B)
+
+Bege claro (#F7E8D0)
+
+Verde musgo (#6E7F5C)
+
+Branco puro (#FFFFFF) como contraste
+
+
+--- Tints:
+-- Shades: 
+--- Accents: 
+-- Greys : 
+#555
+
+--- 05 Shadows
+
+
+--06 Border-Radius
+
+-- 07 White Space
+
+Spacing System (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+      */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  width: 150rem;
+  margin: 0 auto;
+  margin-bottom: 9rem;
+}
+.section-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* ocupa a altura total da viewport */
+  position: relative;
+  margin-bottom: 8rem;
+}
+.container-hero {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(80%, -50%);
+}
+
+.title-logo {
+  font-size: 6.2rem;
+  color: #f7e8d0;
+  font-weight: 700;
+}
+.container-container {
+  width: 50%;
+}
+
+.text-down-hero {
+  color: #fff;
+  position: absolute;
+  top: 250%;
+  border: 2px solid #fff;
+  padding: 1.6rem;
+  border-radius: 9px;
+}
+.cafe-title {
+  margin-left: 3rem;
+}
+
+.btn:link,
+.btn:visited {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  padding: 1.6rem;
+  transition: all 0.4s;
+  border-radius: 9px;
+  background-color: #4b2e2b;
+}
+.btn:hover,
+.btn:visited {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.container-btn {
+  position: absolute;
+  bottom: 250%;
+  margin-left: 5rem;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 9rem;
+  font-size: 4rem;
+}
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 9.6rem;
+}
+.img-img {
+  width: 100%;
+}
+.subheading {
+  font-size: 2.6rem;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+.list-item {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.icon {
+  width: 2.6rem;
+  height: 2.6rem;
+  color: #4b2e2b;
+}
+.content-box {
+  box-shadow: rgb(0, 0, 0, 0.075) 2.3rem 3.4rem 2.4rem;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.content {
+  padding: 3.2rem 2.4rem 3.2rem;
+}
+.content-box:hover {
+  transform: translateY(-2rem);
+}
+.header {
+  font-size: 5.8rem;
+  margin-bottom: 2.6rem;
+  color: #4b2e2b;
+}
+.about-description {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: #4a463e;
+}
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 9.6rem;
+}
+.about-img {
+  width: 100%;
+  border-radius: 7px;
+}
+.img-contact {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.insta-link {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #4a463e;
+  font-weight: 800;
+
+  font-size: 1.8rem;
+}
+.about-text {
+  color: #4a463e;
+  font-weight: 800;
+
+  font-size: 1.8rem;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
