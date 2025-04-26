@@ -1,4 +1,4 @@
-# Coffee Landing Page ☕
+# Cafeteria Aurora Landing Page ☕
 
 Landing page de uma cafeteria fictícia, criada do zero para portfólio.
 
