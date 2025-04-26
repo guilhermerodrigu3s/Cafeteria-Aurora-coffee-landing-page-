@@ -5,7 +5,7 @@ Landing page de uma cafeteria fictícia, criada do zero para portfólio.
 ## ✨ Sobre o projeto
 
 Este projeto foi desenvolvido com foco em práticas de HTML e CSS, com atenção ao design e experiência de usuário.  
-Todas as imagens foram geradas e otimizadas para o projeto.
+Todas as imagens foram geradas por IA e otimizadas para o projeto.
 
 ---
 
